@@ -1,0 +1,60 @@
+<!-- contact.component.html -->
+
+<section class="contact-section">
+
+    <div class="contact-left">
+        <img
+            [src]="AssetPaths.CONTACT_SVG"
+            alt="contact"
+        />
+    </div>
+
+    <div class="contact-right">
+
+        <h1>{{ appConfig.contactSectionTitle }}</h1>
+
+        <p class="contact-description">
+            {{ appConfig.contactSectionDescription }}
+        </p>
+
+        <div class="contact-info">
+
+            <div
+                class="info-card"
+                *ngFor="let item of appConfig.contactDetails"
+            >
+
+                <i class="fa-brands"
+                   *ngIf="item.icon.includes('linkedin')
+                   || item.icon.includes('github')
+                   || item.icon.includes('instagram')
+                   || item.icon.includes('x-twitter')"
+                   [ngClass]="item.icon">
+                </i>
+
+                <i class="fa-solid"
+                   *ngIf="!item.icon.includes('linkedin')
+                   && !item.icon.includes('github')
+                   && !item.icon.includes('instagram')
+                   && !item.icon.includes('x-twitter')"
+                   [ngClass]="item.icon">
+                </i>
+
+                <div>
+                    <span>{{ item.title }}</span>
+
+                    <a
+                        [href]="item.link"
+                        target="_blank"
+                    >
+                        {{ item.value }}
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

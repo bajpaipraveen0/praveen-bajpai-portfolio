@@ -1,0 +1,16 @@
+{
+    "projects": {
+        "default": "freelancing-qa"
+    },
+    "targets": {
+        "freelancing-qa": {
+            "hosting": {
+                "praveen-bajpai-portfolio": [
+                    "praveen-bajpai-portfolio"
+                ]
+            }
+        }
+    },
+    "etags": {},
+    "dataconnectEmulatorConfig": {}
+}
