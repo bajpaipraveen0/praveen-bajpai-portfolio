@@ -3,7 +3,7 @@
 A modern, responsive, and fully customizable developer portfolio built with Angular.  
 This portfolio showcases my professional experience, technical skills, projects, education, achievements, and contact information in a clean and interactive UI.
 
-![Angular](https://img.shields.io/badge/Angular-19-red?style=for-the-badge&logo=angular)
+![Angular](https://img.shields.io/badge/Angular-18-red?style=for-the-badge&logo=angular)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
 ![SCSS](https://img.shields.io/badge/SCSS-CF649A?style=for-the-badge&logo=sass)
 ![Responsive](https://img.shields.io/badge/Responsive-Design-blue?style=for-the-badge)
@@ -41,7 +41,7 @@ This portfolio showcases my professional experience, technical skills, projects,
 # 🛠️ Tech Stack
 
 ## Frontend
-- Angular 19
+- Angular 18
 - TypeScript
 - HTML5
 - SCSS
@@ -51,17 +51,13 @@ This portfolio showcases my professional experience, technical skills, projects,
 ## UI Libraries
 - Bootstrap
 - PrimeNG
-- Kendo UI
 - Font Awesome
 - Simple Icons
 
 ## Development Tools
 - Git & GitHub
 - VS Code
-- Postman
 - Firebase
-- Docker
-- Jenkins
 
 ---
 
