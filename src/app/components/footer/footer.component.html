@@ -1,8 +1,51 @@
-<div class="footer-div" data-aos="fade-in" data-aos-anchor-placement="bottom-bottom">
-    <p class="footer-text">
-        &copy; Copyright 2024{{ currentYear > 2024 ? '-' + currentYear : '' }}  | Made with <span role="img">❤️</span> by 
+<footer class="app-footer">
+  <div class="footer-container">
+
+    <!-- Left Side -->
+    <div class="footer-left">
+      <span>&copy; Copyright 2024{{ currentYear > 2024 ? '-' + currentYear : '' }}  | Made with <span role="img">❤️</span> by 
         <a [href]="'mailto:' + appConfig.emailId" rel="noopener noreferrer">
             {{ appConfig.name }}
-        </a>
-    </p>
-</div>
+        </a></span>
+    </div>
+
+    <!-- Right Side -->
+     @if (router.url !== '/' && router.url !== '/contact') {
+    <div class="footer-right">
+
+      <a
+        href="https://github.com/bajpaipraveen0"
+        target="_blank"
+        aria-label="Github"
+      >
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+      <a
+        href="https://linkedin.com/in/bajpaipraveen0"
+        target="_blank"
+        aria-label="LinkedIn"
+      >
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+
+      <a
+        href="https://instagram.com/bajpaipraveen0"
+        target="_blank"
+        aria-label="Instagram"
+      >
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+
+      <a
+        href="mailto:bajpaipraveen0@gmail.com"
+        aria-label="Email"
+      >
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+
+    </div>
+    }
+
+  </div>
+</footer>

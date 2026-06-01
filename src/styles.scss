@@ -74,6 +74,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
 

@@ -1,14 +1,16 @@
 @if (globalStatsService.isSplashAnimationPlayed || !appConfig.loaderSplashAnimation) {
-    <div>
+    <div  class="p-4 lg:px-24 max-w-[1920px] mx-auto">
         <app-header></app-header>
     </div>
 }
 
-<div class="main-container">
+<div class="p-4 lg:px-24 max-w-[1920px] mx-auto main-container">
     <router-outlet></router-outlet>
 </div>
 
-@if (globalStatsService.isSplashAnimationPlayed || !appConfig.loaderSplashAnimation) {
+@if (
+    (globalStatsService.isSplashAnimationPlayed || !appConfig.loaderSplashAnimation)
+) {
     <div>
         <app-footer></app-footer>
     </div>

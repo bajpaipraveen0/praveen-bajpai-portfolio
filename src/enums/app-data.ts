@@ -5,6 +5,7 @@ import { SkillSection } from "../interfaces/skill-section.interface";
 import { ExperienceSection } from "../interfaces/work-experience.interface";
 import { ContactInfo } from "../interfaces/contact.interface";
 import { AssetPaths } from "./asset-paths.enum";
+import { CertificateSection } from "../interfaces/certificate.interface";
 
 // Social media links to show
 const SocialMediaLinks: ExternalSite[] = [
@@ -267,55 +268,63 @@ const PersonalProjects: ProjectSection = {
     sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
     entities: [
         {
-            title: "Web-Based 3D IFC File Viewer",
-            coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
+            title: "MHK (Healthcare – Medicare Plans)",
+            coverImagePath: AssetPaths.WORK_MHK_LOGO,
             liveLink: "",
             githubLink: "",
-            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
-            techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
-            year: 2022
+            description: "🧱 We are guided by a vision of simplifying healthcare through technology. By streamlining processes and improving care experiences, we help health plans reduce administrative burdens and focus more on serving their members. This approach enables us to support tens of millions of lives through many of the most prominent players in healthcare. Unlike fragmented solutions, MHK unifies every care moment. Our technology seamlessly integrates with core systems, consolidates vital information, streamlines complicated processes and automates workflows based on industry-best practices. By removing complexity, we empower our clients to thrive in today’s rapidly evolving healthcare environment.",
+            techStack: ["Angular", "HTML5", "CSS3", "NgRx", "RxJS", "Kendo-UI", "TypeScript"],
+            year: 2026
         },
         {
-            title: "Customizable Multi-Select Dropdown",
-            coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
+            title: "Ejaro – Peer-to-Peer Vehicle Sharing",
+            coverImagePath: AssetPaths.WORK_EJARO_LOGO,
             githubLink: "",
-            description: "🌲 An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
-            techStack: ["Angular", "TypeScript", "SCSS"],
-            year: 2023,
-            branch: "resource-tree-utility"
+            description: "🌲 Ejaro is the first licensed peer-to-peer vehicle sharing marketplace in Saudi Arabia. We connect local vehicle owners with individuals who are looking to rent vehicles whenever and wherever they want. It empowers owners to earn extra income from their depreciating private vehicles (assets) by sharing it with ejaro’s trusted community. Our services provide the ease and convenience of locating the nearest vehicles at competitive prices.",
+            techStack: ["Angular", "HTML5", "SCSS", "Socket.io", "RxJS", "Google API", "TypeScript"],
+            year: 2021,
+            branch: ""
         },
         {
-            title: "Learning Management System",
-            coverImagePath: AssetPaths.PROJECT_LMS_APP,
+            title: "Ambiview Learning – Real State (US)",
+            coverImagePath: AssetPaths.WORK_AMBIVIEW_LOGO,
             githubLink: "",
-            description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
-            techStack: ["Angular", "PrimeNG", "Tailwind", "Figma"],
-            year: 2023
+            description: "📚 Ambiview is a modern platform for real estate continuing education and real estate license renewal. Our approved real estate courses are ARELLO certified and are delivered through engaging, podcast-like conversations with real estate industry experts. With Ambiview, you can watch or listen to courses through on-demand video or audio podcasts, making learning easy and convenient, even on the go. With features like multistate certificates, premium navigation, PDF guides, we aim to deliver superior value to you.",
+            techStack: ["React", "Redux", "HTML", "SCSS", "ES6"],
+            year: 2020
         },
         {
-            title: "Angular + NestJS Boilerplate",
-            coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
+            title: "JobsHola – Job Portal (Singapore)",
+            coverImagePath: AssetPaths.WORK_JOBSHOLA_LOGO,
             githubLink: "",
-            description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless frontend development. Perfect for kickstarting robust and scalable web applications.",
-            techStack: ["Angular", "NestJS", "NgINX", "Docker"],
-            year: 2023
+            description: "📚 Ambiview is a modern platform for real estate continuing education and real estate license renewal. Our approved real estate courses are ARELLO certified and are delivered through engaging, podcast-like conversations with real estate industry experts. With Ambiview, you can watch or listen to courses through on-demand video or audio podcasts, making learning easy and convenient, even on the go. With features like multistate certificates, premium navigation, PDF guides, we aim to deliver superior value to you.",
+            techStack: ["HTML5", "SCSS", "GraphJs", "SCSS", "JavaScript"],
+            year: 2019
         },
         {
-            title: "Hospital Management System Dashboard",
-            coverImagePath: AssetPaths.PROJECT_HMS_APP,
+            title: "Forfixer Admin – On-Demand Technician Platform (Oman)",
+            coverImagePath: AssetPaths.WORK_FORFIXER_LOGO,
             githubLink: "",
-            description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
-            techStack: ["Angular", "PrimeNG", "PrimeFlex", "Figma"],
+            description: "🛠️ Developed admin workflows for Forfixer, an on-demand technician service platform in Oman, enabling efficient request handling and real-time technician assignment. Built and enhanced features to manage user requests and assign nearby technicians, reducing manual dispatch time.",
+            techStack: ["Angular","HTML", "RxJs", "chartJs", "Google API", "JavaScript"],
+            year: 2019
+        },
+        {
+            title: "MovieFinder – Movie Recommendation App",
+            coverImagePath: AssetPaths.WORK_MOVIEFINDER_LOGO,
+            githubLink: "",
+            description: "🏥 React Movie Finder is a modern movie discovery web application built with React and powered by the TMDB API. Users can explore trending, popular, top-rated, and upcoming movies, search for their favorite titles, view detailed movie information, browse cast members, save movies to a personal watchlist, and discover similar movie recommendations through an interactive and responsive user interface.",
+            techStack: ["React 19", "HTML5", "JavaScript (ES6+)", "Swiper.js", "TMDB API", "Vite"],
             year: 2024
         },
-        {
-            title: "Cross-Platform Music Player",
-            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
-            githubLink: "",
-            description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
-            techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
-            year: 2023
-        }
+        // {
+        //     title: "Cross-Platform Music Player",
+        //     coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
+        //     githubLink: "",
+        //     description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
+        //     techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
+        //     year: 2023
+        // }
     ]
 }
 
@@ -324,40 +333,61 @@ const JobExperience: ExperienceSection = {
     experienceSectionTitle: "Work Experience",
     experiences: [
         {
-            orgLink: "https://acquireconveyancing.com.au/",
-            orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Acquire Conveyancing",
+            orgLink: "https://www.happiestminds.com/",
+            orgLogoPath: AssetPaths.WORK_HM_LOGO,
+            orgName: "Happiest Minds Technologies",
             positions: [
                 {
-                    positionName: "Conveyancing Assistant",
-                    duration: "Apr 2024 - Present",
-                    location: "Adelaide, SA",
+                    positionName: "Senior Software Engineer",
+                    duration: "Apr 2026 - Present",
+                    location: "Noida",
                     locationType: "On-Site",
-                    jobType: "Part-time",
+                    jobType: "Full-time",
                     workPoints: [
-                        "Ensured secure management of sensitive data with top-notch IT support. 🔒",
-                        "Streamlined property searches by liaising with government agencies. 🏡",
-                        "Prepared legal documents like Cooling Off Forms, Nominations, and Addendums. 📝",
-                        "Optimized software workflows with precise data entry and customized templates in CATS and PEXA. ⚙️",
+                        "Developed enterprise healthcare applications using Angular, TypeScript, RxJS, and NgRx.",
+                        "Built reusable UI components and integrated REST APIs for enrollment, billing, and member management modules.",
+                        "Collaborated with stakeholders to gather requirements and deliver features in an Agile environment.",
+                        "Managed application deployments through CI/CD pipelines and ensured high-quality, scalable solutions.",
                     ]
                 }
             ]
         },
         {
-            orgLink: "https://www.asite.com/",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Asite Solution",
+            orgLink: "https://www.happiestminds.com/",
+            orgLogoPath: AssetPaths.WORK_PS_LOGO,
+            orgName: "Puresoftware Technologies",
             positions: [
                 {
-                    positionName: "Jr Software Engineer",
-                    duration: "Jun 2023 - Mar 2024",
-                    location: "Ahmedabad, India",
-                    locationType: "Hybrid",
+                    positionName: "Software Engineer",
+                    duration: "Jun 2021 - Mar 2026",
+                    location: "Noida, India",
+                    locationType: "Remote",
                     jobType: "Full-time",
                     workPoints: [
-                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
-                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
-                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+                        "Developed enterprise healthcare applications using Angular, TypeScript, RxJS, and NgRx.",
+                        "Built reusable UI components and integrated REST APIs for enrollment, billing, and member management modules.",
+                        "Collaborated with stakeholders to gather requirements and deliver features in an Agile environment.",
+                        "Managed application deployments through CI/CD pipelines and ensured high-quality, scalable solutions.",
+                    ]
+                }
+            ]
+        },
+        {
+            orgLink: "https://www.tecorb.com/",
+            orgLogoPath: AssetPaths.WORK_TECORB_LOGO,
+            orgName: "Tecorb Technologies",
+            positions: [
+                {
+                    positionName: "Frontend Developer",
+                    duration: "May 2019 - June 2021",
+                    location: "Noida, India",
+                    locationType: "On-Site",
+                    jobType: "Full-time",
+                    workPoints: [
+                        "Developed responsive Angular, React applications for vehicle-sharing, job portal, and on-demand service platforms across GCC and Singapore markets. 🚀📋",
+                        "Integrated Firebase, Socket.io, Google Maps, and REST APIs to enable real-time tracking, notifications, and communication features. 📂",
+                        "Improved application performance through lazy loading, optimized change detection, and reusable component development. 🐞✅",
+                        "Worked closely with clients and cross-functional teams in Agile projects, handling requirement analysis, development, and delivery. 🔍"
                     ]
                 }
             ]
@@ -370,95 +400,89 @@ const InternshipExperience: ExperienceSection = {
     experienceSectionTitle: "Internships",
     experiences: [
         {
-            orgLink: "https://asite.com/",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Asite Solution",
+            orgLink: "https://www.hestabit.com/",
+            orgLogoPath: AssetPaths.WORK_HB_LOGO,
+            orgName: "Hestabit Technologies",
             positions: [
                 {
-                    positionName: "UI Developer Intern",
-                    duration: "Feb 2023 - May 2023",
-                    location: "Ahmedabad, India",
-                    locationType: "Hybrid",
-                    jobType: "Full-time",
-                    workPoints: [
-                        "Led an 11-member team to design and implement the frontend architecture of an LMS using Angular, following the latest methodologies and best practices. 🚀💻",
-                        "Gained expertise in Angular, jQuery, SCSS, and DSA through personalized training and hands-on assignments during the internship. 🌟📊✨",
-                    ]
-                },
-                {
-                    positionName: "Software Engineering Intern",
-                    duration: "Jun 2022 — Jul 2022",
-                    location: "Ahmedabad, India",
+                    positionName: "UI Intern",
+                    duration: "Jan 2018 - June 2018",
+                    location: "Noida, India",
                     locationType: "On-Site",
                     jobType: "Full-time",
                     workPoints: [
-                        "Developed an innovative 3D IFC file viewer using Three.js, applying DSA concepts to create a tree-like structure for exploring model internals. 🌐🌳📐",
-                        "Deployed the Node.js backend on Heroku and hosted the frontend on GitHub Pages for seamless accessibility. 🚀💻✨",
+                        "Learned core frontend development concepts including HTML, CSS, SCSS, JavaScript, and React. 📋",
+                        "Developed responsive and user-friendly UI layouts following modern web design principles. 📂",
+                        "Built a small college submission project, focusing on UI structure, component design, and responsive web pages. ✅",
+                        "Gained hands-on experience in debugging, code optimization, and frontend development best practices."
                     ]
                 }
             ]
-        },
-        {
-            orgLink: "https://workxmate.com/",
-            orgLogoPath: AssetPaths.WORK_WORKXMATE_LOGO,
-            orgName: "WorkXMate Technologies Pvt. Ltd.",
-            positions: [
-                {
-                    positionName: "Angular Developer Internship",
-                    duration: "Feb 2022 — Mar 2022",
-                    location: "Noida, India",
-                    locationType: "Remote",
-                    jobType: "Part-time",
-                    workPoints: [
-                        "Designed and implemented an optimized, cross-browser-compatible Attendance Management Module. 🌐✔️",
-                        "Built a RESTful Node.js server integrated with Oracle DB for seamless code migration. 🚀📊",
-                        "Developed intuitive web forms with robust validation and error handling for a smooth user experience. 🖋️⚙️✨",
-                    ]
-                }
-            ]
-        },
+        }
     ]
 }
 
-// Community Involvement
-const CommunityInvolvement: ProjectSection = {
-    sectionTitle: "Community Involvement",
+// Award Involvement
+const AwardInvolvement: CertificateSection = {
     entities: [
         {
-            liveLink: "https://adventofcode.com/",
-            coverImagePath: AssetPaths.ACHIEVEMENT_AOC_PIC,
-            techStack: ["Python"],
-            title: "Advent of Code 2024",
-            description: "📅 Completed all Advent of Code 2024 problems within a personal deadline of 1 day each, showcasing strong DSA and problem-solving skills.🎯",
-            year: 2024,
-            githubLink: "",
+            coverImagePath: AssetPaths.AWARD_JUNE_2022,
+            title: "BRAVO Award",
+            description: "Award for Excellence in Software Development and outstanding Performance in delivering high-quality software solutions.",
+            issueDate: "June 2022",
+            issuer: "Puresoftware Technologies"
+        },
+        {
+            coverImagePath: AssetPaths.AWARD_OCTOBER_2023,
+            title: "BRAVO Award",
+            description: "Award for Excellence in Software Development and outstanding Performance in delivering the 2023 module and successfull deployment.",
+            issueDate: "October 2023",
+            issuer: "Puresoftware Technologies"
+        },
+        {
+            coverImagePath: AssetPaths.AWARD_NOVEMBER_2025,
+            title: "BRAVO Award",
+            description: "Award for Excellence in Software Development and outstanding Performance demonstrating exceptional technical skills, and consistently exceeding project goals. ",
+            issueDate: "November 2025",
+            issuer: "Puresoftware Technologies"
+        },
+        {
+            coverImagePath: AssetPaths.AWARD_APRIL_2026,
+            title: "ARJUNA Award",
+            description: "Honored to receive the **Arjuna Award for Breakthrough Performance** for the quarter JFM–2026 for completing the new development phase with new HRA fro client and successfully deploying it within the stipulated timeline.",
+            issueDate: "April 2026",
+            issuer: "Puresoftware Technologies"
         },
     ]
 }
 
 // Achievement
-const AchievementInvolvement: ProjectSection = {
-    sectionTitle: "Achievements",
-    entities: [
+const AchievementInvolvement: CertificateSection = {
+    entities:[
         {
-            liveLink: "",
-            coverImagePath: AssetPaths.ACHIEVEMENT_CPC_RSP_WIN_PIC,
-            techStack: ["C++", "Python"],
-            title: "CPC X RSP 2025",
-            description: "🏆 Secured 3rd place in a high-stakes coding competition, tackling complex algorithms under pressure! Grateful for an incredible team and experience at CPC X RSP competition.",
-            year: 2025,
+            coverImagePath: AssetPaths.ACHIEVEMENT_MTA_PIC,
+            title: "Microsoft Technology Associate certification",
+            description: "🏆 Successfully completed the requirements to be recognized as a Microsoft Technology Associate for Software Development Fundamentals.",
+            issueDate: "25/10/2017",
+            issuer: "Microsoft Corporation"
         },
         {
-            coverImagePath: AssetPaths.ACHIEVEMENT_UNISA_CHANCELLORS_LETTER_2024_PIC,
-            liveLink: "unisa-chancellors-letter-of-commandation-2024.html",
-            // liveLink: "public/unisa-chancellors-letter-of-commandation-2024.html",
-            techStack: ["Cisco", "FortiGate", "ISO 270001"],
-            title: "Chancellor's Commendation Letter (2024)",
-            description: "🚀 Awarded for academic excellence with a cumulative program GPA in the TOP 5% of all students, and invited to join the Golden Key International Honour Society.",
-            year: 2024,
+            coverImagePath: AssetPaths.ACHIEVEMENT_HEARST_PIC,
+            title: "Protecting Patient Health Information under HIPAA",
+            description: "🏆 successfully completed Protecting Patient Health Information under HIPAA course from the Legal Compliance and Ethics Center on June 26, 2021.",
+            issueDate: "26/06/2021",
+            issuer: "LRN inspiring principled performance"
+        },
+        {
+            coverImagePath: AssetPaths.ACHIEVEMENT_PM_PIC,
+            title: "Project Management Assessment Certification",
+            description: "🏆 Successfully completed the requirements to be recognized as a Microsoft Technology Associate for Software Development Fundamentals.",
+            issueDate: "07/04/2026",
+            issuer: "LearnTube.ai"
         },
     ]
 }
+
 
 // Degrees
 const BachelorsDegree: EducationSection = {
@@ -598,8 +622,10 @@ export const AppConfig = {
     achievementsPageTitle: "Achievements, Awards and Community Involvement",
     achievementsPageDescription: "🚀 Milestones, Contributions & Impact: Driving Innovation, Engaging Communities, and Making a Difference 🌍",
     achievementsSections: [
-        AchievementInvolvement,
-        CommunityInvolvement,
+        AchievementInvolvement
+    ],
+    awardsSection :[
+        AwardInvolvement,
     ],
 
     // Contact page info
