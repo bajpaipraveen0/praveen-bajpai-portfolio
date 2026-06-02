@@ -135,9 +135,10 @@
         color: white;
     }
     .image-container {
-            padding: 5px;
+            padding: 8px;
             border-radius: 50%;
             text-align: center;
+            filter: invert(1);
     }
 }
 

@@ -204,7 +204,7 @@ const DesignSkills: ExternalSite[] = [
         name: "Jenkins",
         link: "https://www.jenkins.io/",
         simpleIconName: "jenkins",
-        backgroundColor: "#001e36",
+        backgroundColor: "hsl(1.88deg 64.52% 51.37%)",
     },
 ];
 
@@ -593,7 +593,7 @@ const skills = [
     {
         name: "Jenkins",
         simpleIconName: "jenkins",
-        backgroundColor: "#001e36",
+        backgroundColor: "hsl(1.88deg 64.52% 51.37%)",
     },
 ];
 
@@ -697,7 +697,7 @@ export const AppConfig = {
 
     // Home page
     professionalTitle: "Development | Web Design",
-    professionalSummary: "Results-driven Frontend Engineer with 6+ years of experience building scalable enterprise web applications using Angular, TypeScript, RxJS, and NgRx. Specialized in healthcare, vehicle-sharing, and enterprise platforms with strong expertise in performance optimization, reusable architecture, and modern frontend development.",
+    professionalSummary: "Results-driven Frontend Engineer with 7 years of experience building scalable enterprise web applications using Angular, TypeScript, ReactJS, RxJS, and NgRx, Vite, Github, Docker, Jenkins. Specialized in healthcare, vehicle-sharing, and enterprise platforms with strong expertise in performance optimization, reusable architecture, and modern frontend development.",
     githubProfile: "https://github.com/bajpaipraveen0",              // Your github profile link
     portfolioRepository: "https://github.com/bajpaipraveen0/Angular-Master-Portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
