@@ -96,44 +96,89 @@
         margin-top: 4rem;
     }
 
-    .projects-heading-text {
-        font-size: 50px;
-        margin-top: 80px;
+    .projects-heading-text,
+    .section-heading-text {
+        font-size: 48px;
     }
 
     .projects-heading-sub-text {
-        font-size: 25px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .basic-projects {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .projects-heading-text,
+    .section-heading-text {
+        font-size: 42px;
+    }
+
+    .projects-header-detail-text,
+    .section-header-detail-text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .section-heading-text-div {
+        margin: 5rem 0 3rem;
     }
 }
 
 @media (max-width: 768px) {
 
-    .projects-heading-text,
-    .section-heading-text {
-        font-size: 30px;
-        margin-top: 20px;
+    .projects-main {
+        margin: 4rem 0;
     }
 
-    .projects-heading-sub-text {
-        font-size: 20px;
+    .basic-projects {
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     .projects-heading-div {
         flex-direction: column;
+        gap: 24px;
     }
 
-    .projects-header-detail-text {
+    .projects-heading-img-div img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    .projects-heading-text,
+    .section-heading-text {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-top: 0;
+    }
+
+    .projects-heading-sub-text {
+        font-size: 18px;
+    }
+
+    .projects-header-detail-text,
+    .section-header-detail-text {
         font-size: 16px;
-        margin-right: 0px;
-        margin-left: 0px;
-        line-height: normal;
-        text-align: center;
+        line-height: 1.7;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .section-heading-text-div {
+        margin: 4rem 0 2rem;
     }
 
     .projects-cards-div-main {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        margin: 24px 12px 0;
     }
 }
