@@ -19,7 +19,7 @@ This portfolio showcases my professional experience, technical skills, projects,
 
 # 📸 Preview
 
-<img width="100%" alt="Portfolio Preview" src="https://github.com/user-attachments/assets/be7a29df-b4cb-4656-9ea5-31582a0fe861"/>
+<img width="100%" alt="Portfolio Preview" src="https://github.com/user-attachments/assets/059f15f7-1daf-4460-a933-0f27d7435535"/>
 
 ---
 
