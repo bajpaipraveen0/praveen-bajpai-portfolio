@@ -23,7 +23,7 @@ const SocialMediaLinks: ExternalSite[] = [
     },
     {
         name: "Gmail",
-        link: "mailto:bajpaipraveen0@gmail.com",
+        link: "mailto:bajpaipraveen2026@gmail.com",
         simpleIconName: "gmail",
         backgroundColor: "#EA4335",
     },
@@ -654,8 +654,8 @@ const ContactDetails: ContactInfo[] = [
         },
         {
             title: "Email",
-            value: "bajpaipraveen0@gmail.com",
-            link: "mailto:bajpaipraveen0@gmail.com",
+            value: "bajpaipraveen2026@gmail.com",
+            link: "mailto:bajpaipraveen2026@gmail.com",
             icon: "fa-envelope"
         },
         {
@@ -690,7 +690,7 @@ export const AppConfig = {
     loaderSplashAnimation: true,        // enable or disable splash screen at the initialization of website
     logoName: "Praveen Bajpai",         // Signature font logo name in header
     name: "Praveen Bajpai",             // your name
-    emailId: "bajpaipraveen0@gmail.com",  // your email id
+    emailId: "bajpaipraveen2026@gmail.com",  // your email id
 
     // Google Form Contact Link
     googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
@@ -699,7 +699,7 @@ export const AppConfig = {
     professionalTitle: "Development | Web Design",
     professionalSummary: "Results-driven Frontend Engineer with 7 years of experience building scalable enterprise web applications using Angular, TypeScript, ReactJS, RxJS, and NgRx, Vite, Github, Docker, Jenkins. Specialized in healthcare, vehicle-sharing, and enterprise platforms with strong expertise in performance optimization, reusable architecture, and modern frontend development.",
     githubProfile: "https://github.com/bajpaipraveen0",              // Your github profile link
-    portfolioRepository: "https://github.com/bajpaipraveen0/Angular-Master-Portfolio",        // Your portfolio repository link
+    portfolioRepository: "https://github.com/bajpaipraveen0/praveen-bajpai-portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
     aboutMe: [                          // all the sections you want to show under "What I do?". 
         FullstackSection,
