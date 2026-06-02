@@ -13,7 +13,7 @@ This portfolio showcases my professional experience, technical skills, projects,
 
 # 🌐 Live Demo
 
-🔗 [View Portfolio](We are not Live Yet. Please wait)
+🔗 [[View Portfolio](https://praveen-bajpai-portfolio.vercel.app/)]
 
 ---
 
