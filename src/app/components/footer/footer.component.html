@@ -1,3 +1,40 @@
+<section class="skills-banner mt-5">
+
+        <div class="skills-track">
+
+            @for (skill of appConfig.skillSet; track skill.name) {
+
+            <div class="skill-item">
+                <div class="image-container"  [ngStyle]="{'backgroundColor': skill.backgroundColor }">
+                    <img src="{{ assetPaths.SIMPLE_ICONS }}/{{ skill.simpleIconName }}.svg" [alt]="skill.name">
+                </div>
+                <span>
+                    {{ skill.name }}
+                </span>
+
+            </div>
+
+            }
+
+            <!-- Duplicate for seamless loop -->
+
+            @for (skill of appConfig.skillSet; track skill.name + '-clone') {
+
+            <div class="skill-item">
+                <div class="image-container" [ngStyle]="{'backgroundColor': skill.backgroundColor }">
+                    <img src="{{ assetPaths.SIMPLE_ICONS }}/{{ skill.simpleIconName }}.svg" [alt]="skill.name">
+                </div>
+                <span>
+                    {{ skill.name }}
+                </span>
+
+            </div>
+
+            }
+
+        </div>
+
+    </section>
 <footer class="app-footer">
   <div class="footer-container">
 

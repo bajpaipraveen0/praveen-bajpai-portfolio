@@ -270,7 +270,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "MHK (Healthcare – Medicare Plans)",
             coverImagePath: AssetPaths.WORK_MHK_LOGO,
-            liveLink: "",
+            liveLink: "https://mhk.com/",
             githubLink: "",
             description: "🧱 We are guided by a vision of simplifying healthcare through technology. By streamlining processes and improving care experiences, we help health plans reduce administrative burdens and focus more on serving their members. This approach enables us to support tens of millions of lives through many of the most prominent players in healthcare. Unlike fragmented solutions, MHK unifies every care moment. Our technology seamlessly integrates with core systems, consolidates vital information, streamlines complicated processes and automates workflows based on industry-best practices. By removing complexity, we empower our clients to thrive in today’s rapidly evolving healthcare environment.",
             techStack: ["Angular", "HTML5", "CSS3", "NgRx", "RxJS", "Kendo-UI", "TypeScript"],
@@ -288,6 +288,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "Ambiview Learning – Real State (US)",
             coverImagePath: AssetPaths.WORK_AMBIVIEW_LOGO,
+            liveLink: "https://www.ambiview.com/",
             githubLink: "",
             description: "📚 Ambiview is a modern platform for real estate continuing education and real estate license renewal. Our approved real estate courses are ARELLO certified and are delivered through engaging, podcast-like conversations with real estate industry experts. With Ambiview, you can watch or listen to courses through on-demand video or audio podcasts, making learning easy and convenient, even on the go. With features like multistate certificates, premium navigation, PDF guides, we aim to deliver superior value to you.",
             techStack: ["React", "Redux", "HTML", "SCSS", "ES6"],
@@ -296,6 +297,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "JobsHola – Job Portal (Singapore)",
             coverImagePath: AssetPaths.WORK_JOBSHOLA_LOGO,
+            liveLink: "https://jobshola.com/",
             githubLink: "",
             description: "📚 Ambiview is a modern platform for real estate continuing education and real estate license renewal. Our approved real estate courses are ARELLO certified and are delivered through engaging, podcast-like conversations with real estate industry experts. With Ambiview, you can watch or listen to courses through on-demand video or audio podcasts, making learning easy and convenient, even on the go. With features like multistate certificates, premium navigation, PDF guides, we aim to deliver superior value to you.",
             techStack: ["HTML5", "SCSS", "GraphJs", "SCSS", "JavaScript"],
@@ -483,6 +485,118 @@ const AchievementInvolvement: CertificateSection = {
     ]
 }
 
+const skills = [
+    {
+        name: 'Angular',
+        simpleIconName: 'angular',
+        backgroundColor: '#ea2848',
+    },
+    {
+        name: 'TypeScript',
+        simpleIconName: 'typescript',
+        backgroundColor: '#3178c6',     
+    },
+    {
+        name: 'JavaScript',
+        simpleIconName: 'javascript',
+        backgroundColor: '#f7df1e'
+    },
+    {
+        name: 'RxJS',
+        simpleIconName: 'rxjs',
+        backgroundColor: '#f0e040'
+    },
+    {
+        name: 'NgRx',
+        simpleIconName: 'ngrx',
+        backgroundColor: '#3178c6'
+    },
+    {
+        name: 'HTML5',
+        simpleIconName: 'html5',
+        backgroundColor: '#e34c26'
+    },
+    {
+        name: 'Scss',
+        simpleIconName: 'sass',
+        backgroundColor: '#c69'
+    },
+    {
+        name: 'React',
+        simpleIconName: 'react',
+        backgroundColor: '#61dafb'
+    },
+    {
+        name: "Github",
+        simpleIconName: "github",
+        backgroundColor: "#181717",
+    },
+    {
+        name: "Kendo UI",
+        simpleIconName: "kendo",
+        backgroundColor: "#06B6D4",
+    },
+    {
+        name: "Bootstrap",
+        simpleIconName: "bootstrap",
+        backgroundColor: "#7952B3",
+    },
+    {
+        name: "PrimeNG",
+        simpleIconName: "primeng",
+        backgroundColor: "#DD0031",
+    },{
+        name: "API",
+        simpleIconName: "API",
+        backgroundColor: "#81b9ff",
+    },
+    {
+        name: "JWT",
+        simpleIconName: "jwt",
+        backgroundColor: "#232F3E",
+    },
+    {
+        name: "SQL Servers",
+        simpleIconName: "mysql",
+        backgroundColor: "#47A248",
+    },
+    {
+        name: "Postman",
+        simpleIconName: "postman",
+        backgroundColor: "#F24E1E",
+    },
+    {
+        name: "Jira",
+        simpleIconName: "jira",
+        backgroundColor: "#FF7C00",
+    },
+    {
+        name: "Jasmin",
+        simpleIconName: "jasmin",
+        backgroundColor: "#001e36",
+    },
+    {
+        name: "Docker",
+        simpleIconName: "docker",
+        backgroundColor: "#1488C6",
+    },
+    {
+        name: "Heroku",
+        simpleIconName: "heroku",
+        backgroundColor: "#430098",
+    },
+    {
+        name: "Firebase",
+        simpleIconName: "firebase",
+        backgroundColor: "#FFCA28",
+    },
+    {
+        name: "Jenkins",
+        simpleIconName: "jenkins",
+        backgroundColor: "#001e36",
+    },
+];
+
 
 // Degrees
 const BachelorsDegree: EducationSection = {
@@ -635,5 +749,6 @@ export const AppConfig = {
         "Feel free to connect with me for opportunities, collaborations, freelance projects, or technical discussions.",
 
     contactDetails: ContactDetails,
+    skillSet: skills,
 
 }

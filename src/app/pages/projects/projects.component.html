@@ -5,13 +5,13 @@
             <div class="projects-heading-img-div" data-aos="fade-right">
                 <img [src]="assetPaths.PROJECTS_COVER" alt="Projects & Freelancing">
             </div>
-            
+
             <div class="projects-heading-text-div" data-aos="fade-left">
                 <h1 class="projects-heading-text">
                     {{ appConfig.projectsPageTitle }}
                 </h1>
                 <p class="projects-header-detail-text subTitle">
-                {{ appConfig.projectsPageDescription }}
+                    {{ appConfig.projectsPageDescription }}
                 </p>
             </div>
         </div>
@@ -19,23 +19,23 @@
 
     @for (ps of appConfig.projectSections; track $index) {
 
-        <div class="section-heading-text-div" data-aos="fade-up">
-            <h1 class="section-heading-text">
-                {{ ps.sectionTitle }}
-            </h1>
-    
-            <p class="section-header-detail-text">
-                {{ ps.sectionSubtitle }}
-            </p>
-        </div>
-    
-    
-        <div class="projects-cards-div-main">
+    <div class="section-heading-text-div" data-aos="fade-up">
+        <h1 class="section-heading-text">
+            {{ ps.sectionTitle }}
+        </h1>
 
-            @for (p of ps.entities; track $index) {
-                <app-project-card class="w-full block mb-3" [projectData]="p"></app-project-card>
-            }
-        </div>
+        <p class="section-header-detail-text">
+            {{ ps.sectionSubtitle }}
+        </p>
+    </div>
+
+
+    <div class="projects-cards-div-main">
+
+        @for (p of ps.entities; track $index) {
+        <app-project-card class="w-full block mb-3" [projectData]="p"></app-project-card>
+        }
+    </div>
 
     }
 

@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { AssetPaths } from '../../../enums/asset-paths.enum';
 import { AppConfig } from '../../../enums/app-data';
 import { ProjectCardComponent } from '../../components/project-card/project-card.component';

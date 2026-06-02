@@ -71,15 +71,16 @@
             </p>
 
             <div class="actions">
-
-                <a
-                    [href]="projectData().liveLink ?? projectData().githubLink"
-                    target="_blank"
-                    class="primary-btn">
+                @if (projectData().liveLink) {
+                    <a
+                        [href]="projectData().liveLink"
+                        target="_blank"
+                        class="primary-btn">
 
                     Visit
 
-                </a>
+                    </a>
+                }
 
             </div>
 
