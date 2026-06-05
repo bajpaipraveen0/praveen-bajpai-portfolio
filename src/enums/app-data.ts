@@ -306,6 +306,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "Forfixer Admin – On-Demand Technician Platform (Oman)",
             coverImagePath: AssetPaths.WORK_FORFIXER_LOGO,
+            liveLink: "",
             githubLink: "",
             description: "🛠️ Developed admin workflows for Forfixer, an on-demand technician service platform in Oman, enabling efficient request handling and real-time technician assignment. Built and enhanced features to manage user requests and assign nearby technicians, reducing manual dispatch time.",
             techStack: ["Angular","HTML", "RxJs", "chartJs", "Google API", "JavaScript"],
@@ -314,6 +315,7 @@ const PersonalProjects: ProjectSection = {
         {
             title: "MovieFinder – Movie Recommendation App",
             coverImagePath: AssetPaths.WORK_MOVIEFINDER_LOGO,
+            liveLink: "https://react-movie-finder-eta.vercel.app/",
             githubLink: "",
             description: "🏥 React Movie Finder is a modern movie discovery web application built with React and powered by the TMDB API. Users can explore trending, popular, top-rated, and upcoming movies, search for their favorite titles, view detailed movie information, browse cast members, save movies to a personal watchlist, and discover similar movie recommendations through an interactive and responsive user interface.",
             techStack: ["React 19", "HTML5", "JavaScript (ES6+)", "Swiper.js", "TMDB API", "Vite"],
