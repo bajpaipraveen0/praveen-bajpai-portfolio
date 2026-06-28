@@ -699,7 +699,7 @@ export const AppConfig = {
 
     // Home page
     professionalTitle: "Development | Web Design",
-    professionalSummary: "Results-driven Frontend Engineer with 7 years of experience building scalable enterprise web applications using Angular, TypeScript, ReactJS, RxJS, and NgRx, Vite, Github, Docker, Jenkins. Specialized in healthcare, vehicle-sharing, and enterprise platforms with strong expertise in performance optimization, reusable architecture, and modern frontend development.",
+    professionalSummary: "Results-driven Frontend Engineer with 7+ years of experience building scalable enterprise web applications using Angular, TypeScript, ReactJS, RxJS, and NgRx, Vite, Github, Docker, Jenkins. Specialized in healthcare, vehicle-sharing, and enterprise platforms with strong expertise in performance optimization, reusable architecture, and modern frontend development.",
     githubProfile: "https://github.com/bajpaipraveen0",              // Your github profile link
     portfolioRepository: "https://github.com/bajpaipraveen0/praveen-bajpai-portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
